@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="jp">
 <head>
-    <meta charset="UTF-8">
-    <title>サンプルページ</title>
+                   <meta charset="UTF-8">
+                   <link rel="stylesheet" href="form.css">
+                   <title>サンプルページ</title>
 </head>
 <body>
     <h1>ユーザー登録画面</h1>
@@ -21,9 +22,10 @@
             <label for="man">男</label>
             <input type="radio" name="gender" id="woman" value="女">
             <label for="woman">女</label>
-         <input type="radio" name="gender" id="noAnswer" value="未回答">
-         <label for="noAnswer">未回答</label>
-        </div>
+    <input type="radio" name="gender" id="noAnswer" value="回答なし" checked="checked">
+    <label for="noAnswer">回答なし</label>
+         </div>
+
         <input type="submit" value="登録">
     </form>
     <a href="form.html">ユーザー一覧画面へ</a>
